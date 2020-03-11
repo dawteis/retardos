@@ -1,0 +1,23 @@
+package retardos;
+
+public class Retardos {
+    
+    public static void main(String[] args) {
+
+        System.out.println("Hola tú ");
+        Espera.Esperar(3);
+        System.out.println("               adios");
+        System.out.println(" - - - - - - - - - - - - - \n");
+        
+        System.out.println("Hola tú ");
+        Espera.Esperar1(3);
+        System.out.println("               adios");
+        System.out.println(" - - - - - - - - - - - - - \n");
+
+        System.out.println("Hola tú ");
+        Espera.Esperar2(3);
+        System.out.println("               adios");
+        System.out.println(" - - - - - - - - - - - - - \n");
+
+    } // fin del método main
+} // fin de la clase
